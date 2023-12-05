@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+
+.tech__heading {
+    margin: 76px 0 0 0;
+    padding: 0;
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 4.725px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 800px) {
+    .tech__heading {
+        margin-top: 40px;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 3.375px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .tech__heading {
+        margin: 24px auto 0;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 2.7px;
+    }
+}

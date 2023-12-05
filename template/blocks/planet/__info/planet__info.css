@@ -1,0 +1,11 @@
+.planet__info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 800px) {
+    .planet__info {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,29 @@
+.tech__menu {
+    display: flex;
+    flex-direction: column;
+    margin: 137px 80px 227px 165px;
+    gap: 32px;
+    list-style: none;
+    padding: 0;
+}
+
+@media screen and (min-width: 801px) and (max-width: 1439px) {
+    .tech__menu {
+        margin-left: calc(10px + (165 - 10) * (100vw - 800px) / (1440 - 800));
+        margin-right: calc(10px + (137 - 10) * (100vw - 800px) / (1440 - 800));
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .tech__menu {
+        flex-direction: row;
+        margin: 0 auto 44px;
+        gap: 16px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .tech__menu {
+        margin: 0 auto 26px;
+    }
+}

@@ -1,0 +1,20 @@
+.crew__link {
+    width: 15px;
+    height: 15px;
+    margin: 0;
+    padding: 0;
+    background-image: url(../../../images/others/Oval.png);
+    color: #FFFFFF;
+    background-size: auto;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    opacity: 0.17;
+    border: none;
+}
+
+@media screen and (max-width: 800px) {
+    .crew__link {
+        width: 10px;
+        height: 10px;
+    }
+}

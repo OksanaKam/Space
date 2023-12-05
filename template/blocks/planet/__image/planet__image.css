@@ -1,0 +1,29 @@
+.planet__image {
+    width: 445px;
+    height: 445px;
+    margin: 97px 0 112px 230px;
+}
+
+@media screen and (min-width: 801px) and (max-width: 1439px) {
+    .planet__image {
+        width: calc(300px + (445 - 300) * (100vw - 800px) / (1440 - 800));
+        height: calc(300px + (445 - 300) * (100vw - 800px) / (1440 - 800));
+        margin-left: calc(10px + (230 - 10) * (100vw - 800px) / (1440 - 800));
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .planet__image {
+        width: 300px;
+        height: 300px;
+        margin: 60px auto 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .planet__image {
+        width: 170px;
+        height: 170px;
+        margin: 32px auto 0;
+    }
+}

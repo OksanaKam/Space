@@ -1,0 +1,21 @@
+.crew__ansari {
+    width: 615.57px;
+    height: 607px;
+    margin-top: 48px;
+}
+
+@media screen and (max-width: 800px) {
+    .crew__ansari {
+        width: 539.51px;
+        height: 532px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .crew__ansari {
+        margin-top: 32px;
+        width: 226.15px;
+        height: 223px;
+    }
+}

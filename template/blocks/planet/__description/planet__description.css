@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
+.planet__description {
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #D0D6F9;
+}
+
+@media screen and (max-width: 800px) {
+    .planet__description {
+        font-size: 16px;
+        line-height: 28px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .planet__description {
+        font-size: 15px;
+        line-height: 25px;
+    }
+}

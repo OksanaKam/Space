@@ -1,0 +1,6 @@
+.page_type_planet {
+    background-color: #0B0D17;
+    background-image: url(../../../images/bitmap/Bitmap-planet.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}

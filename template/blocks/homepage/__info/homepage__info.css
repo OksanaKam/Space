@@ -1,0 +1,27 @@
+.homepage__info {
+    max-width: 450px;
+    margin-top: 251px;
+    margin-left: 165px;
+    margin-bottom: 131px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 801px) and (max-width: 1439px) {
+    .homepage__info {
+        margin-left: calc(10px + (165 - 10) * (100vw - 800px) / (1440 - 800));
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .homepage__info {
+        margin: 106px auto 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .homepage__info {
+        max-width: 327px;
+        margin: 48px auto 0;
+    }
+}

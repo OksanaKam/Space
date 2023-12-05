@@ -1,0 +1,23 @@
+.crew__douglas {
+    width: 568.07px;
+    height: 712px;
+    left: 734.93px;
+    top: 185px;
+}
+
+@media screen and (max-width: 800px) {
+    .crew__douglas {
+        position: static;
+        width: 456.37px;
+        height: 572px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .crew__douglas {
+        margin-top: 32px;
+        width: 177.12px;
+        height: 222px;
+    }
+}

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+
+.homepage__title {
+    margin: 24px 0;
+    padding: 0;
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 172px;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 800px) {
+    .homepage__title {
+        line-height: 150px;
+        margin: 24px 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .homepage__title {
+        margin: 16px 0;
+        font-size: 80px;
+        line-height: 100px;
+        text-align: center;
+    }
+}

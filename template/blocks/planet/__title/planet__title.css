@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+
+.planet__title {
+    margin: 50px 0 14px;
+    padding: 0;
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 115px;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 800px) {
+    .planet__title {
+        margin: 47px 0 8px;
+        font-size: 80px;
+        line-height: 92px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .planet__title {
+        margin: 31px 0 1px;
+        font-size: 56px;
+        line-height: 64px;
+    }
+}

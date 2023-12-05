@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+
+.tech__title {
+    max-width: 475px;
+    margin: 11px 0 17px;
+    padding: 0;
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+    color: #FFFFFF;
+}
+
+@media screen and (min-width: 801px) and (max-width: 1439px) {
+    .tech__title {
+        font-size: calc(40px + (56 - 40) * (100vw - 800px) / (1440 - 800));
+        line-height: calc(46px + (64 - 46) * (100vw - 800px) / (1440 - 800));
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .tech__title {
+        margin: 16px auto 16px;
+        font-size: 40px;
+        line-height: 46px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .tech__title {
+        margin: 9px auto 16px;
+        font-size: 24px;
+        line-height: 28px;
+    }
+}

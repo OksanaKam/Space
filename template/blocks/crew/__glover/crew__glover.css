@@ -1,0 +1,22 @@
+.crew__glover {
+    width: 554.39px;
+    height: 681px;
+    left: 743px;
+    top: 250px;
+}
+
+@media screen and (max-width: 800px) {
+    .crew__glover {
+        width: 433.09px;
+        height: 532px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .crew__glover {
+        margin-top: 32px;
+        width: 180.73px;
+        height: 222px;
+    }
+}

@@ -1,0 +1,5 @@
+@media screen and (max-width: 635px) {
+    .header__line2 {
+        transition: transform 0.2s ease-in-out;
+    }
+}

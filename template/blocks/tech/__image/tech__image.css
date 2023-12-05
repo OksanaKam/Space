@@ -1,0 +1,28 @@
+.tech__image {
+    max-width: 515px;
+    max-height: 527px;
+    margin: 26px 0 101px 129px;
+}
+
+@media screen and (min-width: 801px) and (max-width: 1439px) {
+    .tech__image {
+        margin-left: calc(10px + (129 - 10) * (100vw - 800px) / (1440 - 800));
+        max-width: calc(303px + (515 - 303) * (100vw - 800px) / (1440 - 800));
+        max-height: calc(310px + (527 - 310) * (100vw - 800px) / (1440 - 800));
+        margin-top: calc(137px + (26 - 137) * (100vw - 800px) / (1440 - 800));;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .tech__image {
+        height: 310px;
+        margin: 60px auto 56px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .tech__image {
+        margin: 32px auto 34px;
+    }
+}

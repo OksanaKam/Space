@@ -1,0 +1,26 @@
+.crew__menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    width: 132px;
+    height: 15px;
+    margin: 120px 0 94px 0;
+    gap: 24px;
+    list-style: none;
+    padding: 0;
+}
+
+@media screen and (max-width: 800px) {
+    .crew__menu {
+        width: 88px;
+        height: 10px;
+        margin: 40px auto;
+        gap: 16px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .crew__menu {
+        margin: 32px auto;
+    }
+}

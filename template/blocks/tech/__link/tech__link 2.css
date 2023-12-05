@@ -1,0 +1,11 @@
+.tech__link {
+    width: 80px;
+    height: 80px;
+    background-image: url(../../../images/others/Oval-medium.png);
+    color: #FFFFFF;
+    background-size: auto;
+    border-radius: 50%;
+    opacity: 0.25;
+    position: absolute;
+    z-index: 0;
+}

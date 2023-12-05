@@ -1,0 +1,32 @@
+.planet__about {
+    max-width: 445px;
+    display: flex;
+    flex-direction: column;
+    margin: 64px 163px 118px 0;
+}
+
+@media screen and (min-width: 801px) and (max-width: 1439px) {
+    .planet__about {
+        margin-right: calc(10px + (163 - 10) * (100vw - 800px) / (1440 - 800));
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .planet__about {
+        max-width: 573px;
+        margin: 53px auto 62px;
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width: 739px) {
+    .planet__line {
+        max-width: calc(327px + (573 - 327) * (100vw - 500px) / (800 - 500));
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .planet__about {
+        max-width: 327px;
+        margin: 26px auto 58px;
+    }
+}

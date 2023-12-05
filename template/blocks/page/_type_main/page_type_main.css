@@ -1,0 +1,13 @@
+.page_type_main {
+    background-color: black;
+    background-image: url(../../../images/bitmap/Bitmap.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 800px) {
+    .page_type_main {
+        background-image: url(../../../images/bitmap/Bitmap-h.png);
+        background-position: bottom;
+    }
+}

@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+
+.homepage__oval-title {
+    position: absolute;
+    margin: 119px 63px;
+    padding: 0;
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    letter-spacing: 2px;
+    color: #0B0D17;
+    text-align: center;
+    text-decoration: none;
+    z-index: 3;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    border: none;
+}
+
+.homepage__oval-title:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+    .homepage__oval-title {
+        margin: 103px 47px;
+        padding: 0;
+        font-size: 32px;
+        line-height: 37px;
+        letter-spacing: 2px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .homepage__oval-title {
+        margin: 68px 28px;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: center;
+        letter-spacing: 1.25px;
+    }
+}

@@ -1,0 +1,17 @@
+.crew__about {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 800px) {
+    .crew__about {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .crew__about {
+        flex-direction: column-reverse;
+    }
+}

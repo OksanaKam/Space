@@ -1,0 +1,33 @@
+.header__checkbox {
+    display: none;
+}
+
+@media screen and (max-width: 635px) {
+    .header__checkbox {
+        display: block;
+        position: absolute;
+        width: 24px;
+        height: 21px;
+        top: 33px;
+        right: 5%;
+        z-index: 5;
+        opacity: 0;;
+    }
+
+    .header__checkbox:checked ~ .header__nav {
+        right: 0;
+    }
+
+    .header__checkbox:checked ~ .header__menu-burger .header__line1 {
+        transform: rotate(52deg);
+    }
+
+    .header__checkbox:checked ~ .header__menu-burger .header__line2 {
+        transform: scaleY(0);
+    }
+
+    .header__checkbox:checked ~ .header__menu-burger .header__line3 {
+        transform: rotate(-52deg);
+    }
+
+}

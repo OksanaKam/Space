@@ -1,0 +1,24 @@
+.crew__mark {
+    margin-left: 20px;
+    width: 453.44px;
+    height: 654px;
+    left: 800px;
+    top: 246px;
+}
+
+@media screen and (max-width: 800px) {
+    .crew__mark {
+        position: static;
+        width: 368.85px;
+        height: 532px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .crew__mark {
+        margin-top: 32px;
+        width: 153.92px;
+        height: 222px;
+    }
+}

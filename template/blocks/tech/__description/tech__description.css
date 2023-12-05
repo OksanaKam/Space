@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
+.tech__description {
+    max-width: 444px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #D0D6F9;
+}
+
+@media screen and (min-width: 801px) and (max-width: 1439px) {
+    .tech__description {
+        font-size: calc(16px + (18 - 16) * (100vw - 800px) / (1440 - 800));
+        line-height: calc(28px + (32 - 28) * (100vw - 800px) / (1440 - 800));
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .tech__description {
+        font-size: 16px;
+        line-height: 28px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .tech__description {
+        font-size: 15px;
+        line-height: 25px;
+    }
+}

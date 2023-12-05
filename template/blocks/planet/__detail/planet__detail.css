@@ -1,0 +1,6 @@
+.planet__detail {
+    width: 222px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}

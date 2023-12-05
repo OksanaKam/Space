@@ -1,0 +1,6 @@
+.tech__info {
+    display: flex;
+    flex-direction: column;
+    width: 470px;
+    margin: 137px 0 0;
+}

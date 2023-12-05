@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&display=swap');
+
+.crew__barlow {
+    margin-left: 167px;
+    margin-right: 28px;
+    padding: 0;
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 4.725px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+}
+
+@media screen and (max-width: 800px) {
+    .crew__barlow {
+        margin-left: 38px;
+        margin-right: 16px;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 3.375px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .crew__barlow {
+        margin-left: 0;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 2.7px;
+    }
+}

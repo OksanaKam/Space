@@ -1,0 +1,33 @@
+.homepage__explore {
+    width: 274px;
+    height: 274px;
+    margin-top: 359px;
+    margin-bottom: 131px;
+    margin-right: 165px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media screen and (min-width: 801px) and (max-width: 1439px) {
+    .homepage__explore {
+        margin-right: calc(10px + (165 - 10) * (100vw - 800px) / (1440 - 800));
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .homepage__explore {
+        width: 242px;
+        height: 242px;
+        margin: 156px auto 90px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .homepage__explore {
+        width: 150px;
+        height: 150px;
+        margin: 81px auto 48px;
+    }
+}

@@ -1,0 +1,8 @@
+@media screen and (max-width: 635px) {
+    .header__line {
+        display: block;
+        width: 24px;
+        height: 3px;
+        background: #D0D6F9;
+    }
+}

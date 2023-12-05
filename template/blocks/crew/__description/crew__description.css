@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
+.crew__description {
+    margin: 0;
+    padding: 0;
+    max-width: 444px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #D0D6F9;
+}
+
+@media screen and (max-width: 800px) {
+    .crew__description {
+        max-width: 592px;
+        font-size: 16px;
+        line-height: 28px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .crew__description {
+        max-width: 327px;
+        font-size: 15px;
+        line-height: 25px;
+    }
+}
